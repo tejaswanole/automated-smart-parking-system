@@ -1,0 +1,24 @@
+# Core dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+python-socketio>=5.10.0
+python-multipart>=0.0.6
+
+# Build tools (needed for Python 3.13)
+setuptools>=68.0.0
+wheel>=0.41.0
+
+# Computer Vision
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+numpy>=1.24.0
+
+# Additional utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+aiofiles>=23.2.0
+
+# Development (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
